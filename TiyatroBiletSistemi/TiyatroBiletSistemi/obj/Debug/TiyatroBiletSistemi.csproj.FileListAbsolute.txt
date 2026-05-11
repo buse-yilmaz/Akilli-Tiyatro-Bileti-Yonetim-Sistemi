@@ -1,0 +1,10 @@
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\bin\Debug\TiyatroBiletSistemi.exe.config
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\bin\Debug\TiyatroBiletSistemi.exe
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\bin\Debug\TiyatroBiletSistemi.pdb
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.FrmGiris.resources
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.Properties.Resources.resources
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.exe
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.pdb
