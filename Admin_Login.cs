@@ -31,13 +31,14 @@ namespace TiyatroBiletiYonetimSistemi
             this.Text = "Admin Girişi";
             this.Size = new Size(700, 450);
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.FormBorderStyle = FormBorderStyle.Sizable; 
+            this.FormBorderStyle = FormBorderStyle.Sizable;
             this.MaximizeBox = true;
-            // Sol mor panel
+
+            // Sol kırmızı panel
             pnlSol = new Panel();
             pnlSol.Size = new Size(280, 450);
             pnlSol.Location = new Point(0, 0);
-            pnlSol.BackColor = Color.FromArgb(83, 74, 183);
+            pnlSol.BackColor = Color.FromArgb(139, 0, 0); // Koyu kırmızı
 
             lblIkon = new Label();
             lblIkon.Text = "🎭";
@@ -58,7 +59,7 @@ namespace TiyatroBiletiYonetimSistemi
             lblAltBaslik = new Label();
             lblAltBaslik.Text = "Admin paneline erişmek için\nlütfen giriş yapınız.";
             lblAltBaslik.Font = new Font("Segoe UI", 9);
-            lblAltBaslik.ForeColor = Color.FromArgb(200, 195, 240);
+            lblAltBaslik.ForeColor = Color.FromArgb(255, 180, 180); // Açık kırmızı
             lblAltBaslik.Size = new Size(260, 50);
             lblAltBaslik.Location = new Point(10, 255);
             lblAltBaslik.TextAlign = ContentAlignment.MiddleCenter;
@@ -71,26 +72,26 @@ namespace TiyatroBiletiYonetimSistemi
             pnlSag = new Panel();
             pnlSag.Size = new Size(420, 450);
             pnlSag.Location = new Point(280, 0);
-            pnlSag.BackColor = Color.FromArgb(245, 243, 255);
+            pnlSag.BackColor = Color.FromArgb(245, 245, 245); // Açık gri/beyaz
 
             lblBaslikSag = new Label();
             lblBaslikSag.Text = "Admin Girişi";
             lblBaslikSag.Font = new Font("Segoe UI", 15, FontStyle.Bold);
-            lblBaslikSag.ForeColor = Color.FromArgb(40, 35, 80);
+            lblBaslikSag.ForeColor = Color.FromArgb(139, 0, 0); // Kırmızı başlık
             lblBaslikSag.Size = new Size(360, 35);
             lblBaslikSag.Location = new Point(30, 60);
 
             lblAltBaslikSag = new Label();
             lblAltBaslikSag.Text = "Devam etmek için kimlik bilgilerinizi giriniz";
             lblAltBaslikSag.Font = new Font("Segoe UI", 9);
-            lblAltBaslikSag.ForeColor = Color.FromArgb(150, 145, 180);
+            lblAltBaslikSag.ForeColor = Color.FromArgb(150, 100, 100); // Kırmızımsı gri
             lblAltBaslikSag.Size = new Size(360, 25);
             lblAltBaslikSag.Location = new Point(30, 98);
 
             lblKullanici = new Label();
             lblKullanici.Text = "KULLANICI ADI";
             lblKullanici.Font = new Font("Segoe UI", 8, FontStyle.Bold);
-            lblKullanici.ForeColor = Color.FromArgb(150, 145, 180);
+            lblKullanici.ForeColor = Color.FromArgb(139, 0, 0); // Kırmızı
             lblKullanici.Location = new Point(30, 150);
             lblKullanici.Size = new Size(360, 20);
 
@@ -99,13 +100,13 @@ namespace TiyatroBiletiYonetimSistemi
             txtKullanici.Size = new Size(360, 32);
             txtKullanici.Font = new Font("Segoe UI", 11);
             txtKullanici.BorderStyle = BorderStyle.FixedSingle;
-            txtKullanici.BackColor = Color.FromArgb(235, 233, 255);
+            txtKullanici.BackColor = Color.White;
             txtKullanici.ForeColor = Color.FromArgb(40, 35, 80);
 
             lblSifre = new Label();
             lblSifre.Text = "ŞİFRE";
             lblSifre.Font = new Font("Segoe UI", 8, FontStyle.Bold);
-            lblSifre.ForeColor = Color.FromArgb(150, 145, 180);
+            lblSifre.ForeColor = Color.FromArgb(139, 0, 0); // Kırmızı
             lblSifre.Location = new Point(30, 220);
             lblSifre.Size = new Size(360, 20);
 
@@ -115,7 +116,7 @@ namespace TiyatroBiletiYonetimSistemi
             txtSifre.Font = new Font("Segoe UI", 11);
             txtSifre.PasswordChar = '*';
             txtSifre.BorderStyle = BorderStyle.FixedSingle;
-            txtSifre.BackColor = Color.FromArgb(235, 233, 255);
+            txtSifre.BackColor = Color.White;
             txtSifre.ForeColor = Color.FromArgb(40, 35, 80);
 
             lblHata = new Label();
@@ -129,7 +130,7 @@ namespace TiyatroBiletiYonetimSistemi
             btnGiris.Text = "Giriş Yap";
             btnGiris.Location = new Point(30, 315);
             btnGiris.Size = new Size(360, 42);
-            btnGiris.BackColor = Color.FromArgb(83, 74, 183);
+            btnGiris.BackColor = Color.FromArgb(139, 0, 0); // Kırmızı buton
             btnGiris.ForeColor = Color.White;
             btnGiris.Font = new Font("Segoe UI", 11, FontStyle.Bold);
             btnGiris.FlatStyle = FlatStyle.Flat;
@@ -137,8 +138,8 @@ namespace TiyatroBiletiYonetimSistemi
             btnGiris.Cursor = Cursors.Hand;
             btnGiris.Click += BtnGiris_Click;
 
-            btnGiris.MouseEnter += (s, e) => btnGiris.BackColor = Color.FromArgb(127, 119, 221);
-            btnGiris.MouseLeave += (s, e) => btnGiris.BackColor = Color.FromArgb(83, 74, 183);
+            btnGiris.MouseEnter += (s, e) => btnGiris.BackColor = Color.FromArgb(180, 0, 0); // Hover: daha açık kırmızı
+            btnGiris.MouseLeave += (s, e) => btnGiris.BackColor = Color.FromArgb(139, 0, 0); // Normal: koyu kırmızı
 
             pnlSag.Controls.Add(lblBaslikSag);
             pnlSag.Controls.Add(lblAltBaslikSag);

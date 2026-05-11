@@ -13,7 +13,6 @@ namespace TiyatroBiletiYonetimSistemi
         private Label lblHosgeldın;
         private Label lblAltYazi;
         private Button btnCikis;
-
         private string adminAdi;
 
         public Admin_Page(string adminAdi)
@@ -30,13 +29,13 @@ namespace TiyatroBiletiYonetimSistemi
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.BackColor = Color.FromArgb(245, 243, 255);
+            this.BackColor = Color.FromArgb(245, 245, 245);
 
             // Üst panel
             pnlUst = new Panel();
             pnlUst.Size = new Size(700, 65);
             pnlUst.Location = new Point(0, 0);
-            pnlUst.BackColor = Color.FromArgb(83, 74, 183);
+            pnlUst.BackColor = Color.FromArgb(139, 0, 0);
 
             lblLogo = new Label();
             lblLogo.Text = "🎭 Tiyatro Bileti Yönetim Sistemi";
@@ -56,7 +55,6 @@ namespace TiyatroBiletiYonetimSistemi
             btnCikis.FlatAppearance.BorderSize = 0;
             btnCikis.Cursor = Cursors.Hand;
             btnCikis.Click += BtnCikis_Click;
-
             btnCikis.MouseEnter += (s, e) => btnCikis.BackColor = Color.FromArgb(200, 50, 50);
             btnCikis.MouseLeave += (s, e) => btnCikis.BackColor = Color.FromArgb(220, 80, 80);
 
@@ -67,7 +65,7 @@ namespace TiyatroBiletiYonetimSistemi
             pnlIcerik = new Panel();
             pnlIcerik.Size = new Size(620, 120);
             pnlIcerik.Location = new Point(40, 110);
-            pnlIcerik.BackColor = Color.FromArgb(83, 74, 183);
+            pnlIcerik.BackColor = Color.FromArgb(139, 0, 0);
 
             lblHosgeldın = new Label();
             lblHosgeldın.Text = "Hoş Geldiniz, " + adminAdi + "!";
@@ -79,7 +77,7 @@ namespace TiyatroBiletiYonetimSistemi
             lblAltYazi = new Label();
             lblAltYazi.Text = "Sisteme başarıyla giriş yaptınız. Yönetim paneline erişebilirsiniz.";
             lblAltYazi.Font = new Font("Segoe UI", 9);
-            lblAltYazi.ForeColor = Color.FromArgb(200, 195, 240);
+            lblAltYazi.ForeColor = Color.FromArgb(255, 180, 180);
             lblAltYazi.Location = new Point(30, 65);
             lblAltYazi.Size = new Size(560, 25);
 
