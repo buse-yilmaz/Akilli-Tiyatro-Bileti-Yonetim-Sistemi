@@ -1,6 +1,7 @@
 # 🎭 Akıllı Tiyatro Bileti Yönetim Sistemi
 
 ***Proje Amacı***
+
 Tiyatro bilet ve rezervasyon süreçlerini dijital ortama taşıyarak kullanıcı dostu bir yönetim sistemi geliştirmektir. Şehir bazlı oyun listeleme, rezervasyon ve yönetici paneli ile süreçlerin daha hızlı ve verimli işlemesi hedeflenmektedir.
 
 ***Mevcut Özellikler***
