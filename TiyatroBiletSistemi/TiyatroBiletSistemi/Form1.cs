@@ -29,16 +29,24 @@ namespace TiyatroBiletSistemi
 
         private void btnGiris_Click(object sender, EventArgs e)
         {
+           
+        
             if (txtEposta.Text == "kullanici@gmail.com" &&
-     txtSifre.Text == "12345")
+               txtSifre.Text == "12345")
             {
                 MessageBox.Show("Giriş Başarılı");
+
+                Anasayfa frm = new Anasayfa();
+                frm.Show();
+
+                this.Hide();
             }
             else
             {
                 MessageBox.Show("E-Posta veya Şifre Hatalı");
             }
         }
+        
 
         private void textEposta_TextChanged(object sender, EventArgs e)
         {

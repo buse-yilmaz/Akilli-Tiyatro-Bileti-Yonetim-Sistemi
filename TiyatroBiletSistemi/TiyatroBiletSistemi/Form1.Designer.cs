@@ -2,10 +2,15 @@
 {
     partial class FrmGiris
     {
-      
+        /// <summary>
+        ///Gerekli tasarımcı değişkeni.
+        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-      
+        /// <summary>
+        ///Kullanılan tüm kaynakları temizleyin.
+        /// </summary>
+        ///<param name="disposing">yönetilen kaynaklar dispose edilmeliyse doğru; aksi halde yanlış.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -17,7 +22,10 @@
 
         #region Windows Form Designer üretilen kod
 
-        
+        /// <summary>
+        /// Tasarımcı desteği için gerekli metot - bu metodun 
+        ///içeriğini kod düzenleyici ile değiştirmeyin.
+        /// </summary>
         private void InitializeComponent()
         {
             this.btnGiris = new System.Windows.Forms.Button();
@@ -28,8 +36,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.chkGoster = new System.Windows.Forms.CheckBox();
             this.panelSol = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelSol.SuspendLayout();
@@ -38,13 +46,14 @@
             // 
             // btnGiris
             // 
-            this.btnGiris.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnGiris.BackColor = System.Drawing.Color.DarkRed;
             this.btnGiris.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGiris.ForeColor = System.Drawing.Color.White;
-            this.btnGiris.Location = new System.Drawing.Point(418, 281);
+            this.btnGiris.Location = new System.Drawing.Point(419, 281);
+            this.btnGiris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGiris.Name = "btnGiris";
-            this.btnGiris.Size = new System.Drawing.Size(250, 28);
+            this.btnGiris.Size = new System.Drawing.Size(251, 28);
             this.btnGiris.TabIndex = 0;
             this.btnGiris.Text = "Giriş Yap";
             this.btnGiris.UseVisualStyleBackColor = false;
@@ -64,17 +73,19 @@
             // 
             // txtSifre
             // 
-            this.txtSifre.Location = new System.Drawing.Point(418, 207);
+            this.txtSifre.Location = new System.Drawing.Point(419, 207);
+            this.txtSifre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSifre.Name = "txtSifre";
-            this.txtSifre.Size = new System.Drawing.Size(250, 22);
+            this.txtSifre.Size = new System.Drawing.Size(249, 22);
             this.txtSifre.TabIndex = 2;
             this.txtSifre.UseSystemPasswordChar = true;
             // 
             // txtEposta
             // 
-            this.txtEposta.Location = new System.Drawing.Point(418, 148);
+            this.txtEposta.Location = new System.Drawing.Point(419, 148);
+            this.txtEposta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEposta.Name = "txtEposta";
-            this.txtEposta.Size = new System.Drawing.Size(250, 22);
+            this.txtEposta.Size = new System.Drawing.Size(249, 22);
             this.txtEposta.TabIndex = 3;
             this.txtEposta.TextChanged += new System.EventHandler(this.textEposta_TextChanged);
             // 
@@ -102,7 +113,8 @@
             // 
             this.chkGoster.AutoSize = true;
             this.chkGoster.ForeColor = System.Drawing.Color.Gray;
-            this.chkGoster.Location = new System.Drawing.Point(418, 235);
+            this.chkGoster.Location = new System.Drawing.Point(419, 235);
+            this.chkGoster.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chkGoster.Name = "chkGoster";
             this.chkGoster.Size = new System.Drawing.Size(109, 20);
             this.chkGoster.TabIndex = 6;
@@ -112,27 +124,16 @@
             // 
             // panelSol
             // 
-            this.panelSol.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.panelSol.BackColor = System.Drawing.Color.DarkRed;
             this.panelSol.Controls.Add(this.label4);
             this.panelSol.Controls.Add(this.label3);
             this.panelSol.Controls.Add(this.pictureBox2);
             this.panelSol.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSol.Location = new System.Drawing.Point(0, 0);
+            this.panelSol.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelSol.Name = "panelSol";
-            this.panelSol.Size = new System.Drawing.Size(350, 453);
+            this.panelSol.Size = new System.Drawing.Size(349, 453);
             this.panelSol.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label3.Location = new System.Drawing.Point(26, 43);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(293, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Tiyatro Bileti Yönetim Sistemi";
             // 
             // label4
             // 
@@ -143,6 +144,18 @@
             this.label4.Size = new System.Drawing.Size(317, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "Tiyatro sistemine giriş yapmak için bilgilerinizi giriniz.\r\n";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label3.Location = new System.Drawing.Point(27, 43);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(293, 25);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Tiyatro Bileti Yönetim Sistemi";
             // 
             // label5
             // 
@@ -159,6 +172,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::TiyatroBiletSistemi.Properties.Resources.pngwing_com;
             this.pictureBox2.Location = new System.Drawing.Point(96, 148);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(145, 89);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -183,6 +197,7 @@
             this.Controls.Add(this.btnGiris);
             this.ForeColor = System.Drawing.Color.MidnightBlue;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FrmGiris";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kullanıcı Giriş";

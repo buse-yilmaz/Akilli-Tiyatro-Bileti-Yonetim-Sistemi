@@ -8,3 +8,4 @@ C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBil
 C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.exe
 C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.pdb
+C:\Users\PC\Desktop\TiyatroBiletSistemi\TiyatroBiletSistemi\obj\Debug\TiyatroBiletSistemi.Anasayfa.resources

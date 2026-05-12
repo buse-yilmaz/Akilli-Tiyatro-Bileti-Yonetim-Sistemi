@@ -63,6 +63,66 @@ namespace TiyatroBiletSistemi.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap _490c5ffb7d8d3fcb228c537c180cf94a {
+            get {
+                object obj = ResourceManager.GetObject("490c5ffb7d8d3fcb228c537c180cf94a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap _81e57127dfc9ff1ae1261e7a2216863a {
+            get {
+                object obj = ResourceManager.GetObject("81e57127dfc9ff1ae1261e7a2216863a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8564ff809b1530b1aa820da374220359 {
+            get {
+                object obj = ResourceManager.GetObject("8564ff809b1530b1aa820da374220359", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap a438c8e0d766de41ed5b44e801a0fb9c {
+            get {
+                object obj = ResourceManager.GetObject("a438c8e0d766de41ed5b44e801a0fb9c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap cda163b5_5212_4d20_8aea_fd916c316801 {
+            get {
+                object obj = ResourceManager.GetObject("cda163b5-5212-4d20-8aea-fd916c316801", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap e4c5eb10e08876db52387edc84d607d1 {
+            get {
+                object obj = ResourceManager.GetObject("e4c5eb10e08876db52387edc84d607d1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap png_transparent_performing_arts_theatre_acting_the_arts_theater_miscellaneous_culture_text_thumbnail {
             get {
                 object obj = ResourceManager.GetObject("png-transparent-performing-arts-theatre-acting-the-arts-theater-miscellaneous-cul" +

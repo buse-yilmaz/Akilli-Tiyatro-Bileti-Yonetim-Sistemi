@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +94,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cda163b5-5212-4d20-8aea-fd916c316801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81e57127dfc9ff1ae1261e7a2216863a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8564ff809b1530b1aa820da374220359.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a438c8e0d766de41ed5b44e801a0fb9c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\490c5ffb7d8d3fcb228c537c180cf94a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e4c5eb10e08876db52387edc84d607d1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
