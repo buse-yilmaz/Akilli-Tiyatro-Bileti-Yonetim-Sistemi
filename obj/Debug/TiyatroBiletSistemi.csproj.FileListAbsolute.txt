@@ -1,0 +1,10 @@
+C:\Users\seman\source\repos\Akilli-Tiyatro-Bileti-Yonetim-Sistemi\obj\Debug\TiyatroBiletSistemi.csproj.AssemblyReference.cache
+C:\Users\seman\source\repos\Akilli-Tiyatro-Bileti-Yonetim-Sistemi\obj\Debug\TiyatroBiletSistemi.Oyunlar.resources
+C:\Users\seman\source\repos\Akilli-Tiyatro-Bileti-Yonetim-Sistemi\obj\Debug\TiyatroBiletSistemi.csproj.GenerateResource.cache
+C:\Users\seman\source\repos\Akilli-Tiyatro-Bileti-Yonetim-Sistemi\bin\Debug\TiyatroBiletSistemi.exe.config
+C:\Users\seman\source\repos\Akilli-Tiyatro-Bileti-Yonetim-Sistemi\bin\Debug\TiyatroBiletSistemi.exe
+C:\Users\seman\source\repos\Akilli-Tiyatro-Bileti-Yonetim-Sistemi\bin\Debug\TiyatroBiletSistemi.pdb
+C:\Users\seman\source\repos\Akilli-Tiyatro-Bileti-Yonetim-Sistemi\obj\Debug\TiyatroBiletSistemi.Properties.Resources.resources
+C:\Users\seman\source\repos\Akilli-Tiyatro-Bileti-Yonetim-Sistemi\obj\Debug\TiyatroBiletSistemi.csproj.CoreCompileInputs.cache
+C:\Users\seman\source\repos\Akilli-Tiyatro-Bileti-Yonetim-Sistemi\obj\Debug\TiyatroBiletSistemi.exe
+C:\Users\seman\source\repos\Akilli-Tiyatro-Bileti-Yonetim-Sistemi\obj\Debug\TiyatroBiletSistemi.pdb
