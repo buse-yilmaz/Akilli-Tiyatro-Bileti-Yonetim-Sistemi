@@ -4,7 +4,7 @@
 
 Tiyatro bilet ve rezervasyon süreçlerini dijital ortama taşıyarak kullanıcı dostu bir yönetim sistemi geliştirmektir. Şehir bazlı oyun listeleme, rezervasyon ve yönetici paneli ile süreçlerin daha hızlı ve verimli işlemesi hedeflenmektedir.Tiyatro bileti satışı ve yönetimini kolaylaştırmak amacıyla geliştirilmiş, MySQL veritabanı destekli masaüstü uygulamasıdır.
 
-## 🚀 Özellikler
+## Özellikler
 
 ### Kullanıcı Tarafı
 - Kullanıcı kayıt ve giriş sistemi
@@ -20,14 +20,14 @@ Tiyatro bilet ve rezervasyon süreçlerini dijital ortama taşıyarak kullanıc�
 - Kullanıcı yönetimi
 - Rezervasyon takibi
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - **C# / Windows Forms** — Masaüstü uygulama geliştirme
 - **MySQL** — Veritabanı yönetimi
 - **MySql.Data (NuGet)** — MySQL bağlantısı
 - **Visual Studio 2022** — Geliştirme ortamı
 
-## 🗄️ Veritabanı Yapısı
+## Veritabanı Yapısı
 
 | Tablo | Açıklama |
 |-------|----------|
@@ -39,7 +39,7 @@ Tiyatro bilet ve rezervasyon süreçlerini dijital ortama taşıyarak kullanıc�
 | `seanslar` | Oyun seans bilgileri |
 | `rezervasyonlar` | Bilet rezervasyonları |
 
-## 📸 Ekran Görüntüleri
+## Ekranlar
 
 ***Anasayfa Ekranı***
 
@@ -81,9 +81,8 @@ Tiyatro bilet ve rezervasyon süreçlerini dijital ortama taşıyarak kullanıc�
 
 
 
-## 👥 Katkıda Bulunanlar
+## Grup Üyeleri
 
-***Grup Üyeleri***
 | İsim | Numara |
 |------|-----|
 | Sevim Çıra | 032390053 |
@@ -91,7 +90,7 @@ Tiyatro bilet ve rezervasyon süreçlerini dijital ortama taşıyarak kullanıc�
 | Buse Yılmaz | 032390024 |
 | Semanur Erdoğan | 032390064 |
 
-## ⚙️ Kurulum
+##  Kurulum
 
 ### Gereksinimler
 - Visual Studio 2022
