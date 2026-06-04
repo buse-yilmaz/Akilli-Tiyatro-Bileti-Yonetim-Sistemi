@@ -92,31 +92,5 @@ Tiyatro bilet ve rezervasyon süreçlerini dijital ortama taşıyarak kullanıc�
 | Buse Yılmaz | 032390024 |
 | Semanur Erdoğan | 032390064 |
 
-##  Kurulum
 
-### Gereksinimler
-- Visual Studio 2022
-- .NET Framework 4.7.2+
-- MySQL Server
-- MySQL Workbench (opsiyonel)
-
-### Adımlar
-
-1. Repoyu klonla:
-```bash
-   git clone https://github.com/buse-yilmaz/Akilli-Tiyatro-Bileti-Yonetim-Sistemi.git
-```
-
-2. MySQL'de veritabanını oluştur:
-```sql
-   CREATE DATABASE TiyatroDB;
-```
-   Sonra `TiyatroDB.sql` dosyasını içe aktar.
-
-3. `VeriTabani.cs` dosyasında bağlantı bilgilerini güncelle:
-```csharp
-   private static string connectionString = "Server=localhost;Database=TiyatroDB;Uid=root;Pwd=ŞIFRE;";
-```
-
-4. Visual Studio'da projeyi aç ve çalıştır.
 
