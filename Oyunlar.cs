@@ -158,7 +158,15 @@ namespace TiyatroBiletSistemi
 
         private void Oyunlar_Load_1(object sender, EventArgs e) { }
         private void label4_Click(object sender, EventArgs e) { }
-        private void button2_Click(object sender, EventArgs e) { }
+        
+         private void button2_Click(object sender, EventArgs e)
+        {
+
+            Anasayfa anaSayfa = new Anasayfa();
+            anaSayfa.Show();
+            this.Close();
+
+        }
         private void flowOyunlar_Paint(object sender, PaintEventArgs e) { }
 
         private void panelUst_Paint(object sender, PaintEventArgs e)
