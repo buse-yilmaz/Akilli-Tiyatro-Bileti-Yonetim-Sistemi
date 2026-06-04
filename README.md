@@ -22,7 +22,7 @@ Tiyatro bilet ve rezervasyon süreçlerini dijital ortama taşıyarak kullanıc�
 
 ## Kullanılan Teknolojiler
 
-- **C# / Windows Forms** — Masaüstü uygulama geliştirme
+- **C# / Windows Forms(.NET Framework)** — Masaüstü uygulama geliştirme
 - **MySQL** — Veritabanı yönetimi
 - **MySql.Data (NuGet)** — MySQL bağlantısı
 - **Visual Studio 2022** — Geliştirme ortamı
@@ -61,14 +61,15 @@ Tiyatro bilet ve rezervasyon süreçlerini dijital ortama taşıyarak kullanıc�
 <img width="849" height="546" alt="image" src="https://github.com/user-attachments/assets/94639712-ae19-4868-802d-41b8294987fa" />
 
 
-***Yöentici Paneli***
+***Yönetici Paneli***
 
 <img width="1168" height="799" alt="image" src="https://github.com/user-attachments/assets/3d03cf72-1071-47d1-99a0-03c4a4856532" />
 
 
 ***Oyunlar Ekranı***
 
-<img width="1122" height="743" alt="image" src="https://github.com/user-attachments/assets/8ad617fc-8cf7-4ac0-8562-7384c1d1b369" />
+<img width="1119" height="746" alt="image" src="https://github.com/user-attachments/assets/e3392155-e5c6-4693-8905-3cc7871a0e7e" />
+
 
 
 ***Koltuk Seçim Ekranı***
