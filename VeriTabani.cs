@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Data;
-// Az önce kurduğumuz kütüphaneyi buraya çağırıyoruz
 using MySql.Data.MySqlClient;
 
 namespace TiyatroBiletSistemi
