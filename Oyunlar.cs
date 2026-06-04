@@ -160,5 +160,10 @@ namespace TiyatroBiletSistemi
         private void label4_Click(object sender, EventArgs e) { }
         private void button2_Click(object sender, EventArgs e) { }
         private void flowOyunlar_Paint(object sender, PaintEventArgs e) { }
+
+        private void panelUst_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelUst = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.panelFiltre = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -39,7 +40,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.flowOyunlar = new System.Windows.Forms.FlowLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
             this.panelUst.SuspendLayout();
             this.panelFiltre.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +54,19 @@
             this.panelUst.Name = "panelUst";
             this.panelUst.Size = new System.Drawing.Size(1200, 100);
             this.panelUst.TabIndex = 0;
+            this.panelUst.Paint += new System.Windows.Forms.PaintEventHandler(this.panelUst_Paint);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.Firebrick;
+            this.button2.Location = new System.Drawing.Point(1061, 35);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(117, 39);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Ana Sayfa";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label4
             // 
@@ -161,18 +174,6 @@
             this.flowOyunlar.Size = new System.Drawing.Size(950, 600);
             this.flowOyunlar.TabIndex = 2;
             this.flowOyunlar.Paint += new System.Windows.Forms.PaintEventHandler(this.flowOyunlar_Paint);
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.Color.Firebrick;
-            this.button2.Location = new System.Drawing.Point(1061, 35);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 39);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Ana Sayfa";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Oyunlar
             // 
