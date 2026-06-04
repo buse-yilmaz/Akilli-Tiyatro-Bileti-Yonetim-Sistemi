@@ -68,7 +68,8 @@ Tiyatro bilet ve rezervasyon süreçlerini dijital ortama taşıyarak kullanıc�
 
 ***Oyunlar Ekranı***
 
-<img width="1119" height="746" alt="image" src="https://github.com/user-attachments/assets/e3392155-e5c6-4693-8905-3cc7871a0e7e" />
+<img width="1123" height="748" alt="image" src="https://github.com/user-attachments/assets/b9753e28-8813-4669-81ad-a7375a54d1d7" />
+
 
 
 
