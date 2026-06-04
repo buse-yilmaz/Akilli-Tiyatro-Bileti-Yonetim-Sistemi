@@ -56,7 +56,7 @@ namespace TiyatroBiletSistemi
                     return;
                 }
 
-                // İlk uygun seansı bul
+              
                 string seansSorgu = "SELECT id FROM seanslar WHERE oyun_id = @oyunId LIMIT 1";
                 var seansCmd = new MySqlCommand(seansSorgu, conn);
                 seansCmd.Parameters.AddWithValue("@oyunId", oyunId);
@@ -69,7 +69,7 @@ namespace TiyatroBiletSistemi
                     return;
                 }
 
-                // Rezervasyonu ekle (kullanici_id şimdilik 1, giriş sistemi entegre edilince güncellenecek)
+                
                 string rezervasyonSorgu = @"INSERT INTO rezervasyonlar 
                     (kullanici_id, seans_id, koltuk_no, durum) 
                     VALUES (@kullaniciId, @seansId, @koltuk, @durum)";
