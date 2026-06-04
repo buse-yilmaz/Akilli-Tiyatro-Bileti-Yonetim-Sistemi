@@ -28,10 +28,7 @@ namespace TiyatroBiletSistemi
                     cmbSehir.Items.Add(reader["sehir_adi"].ToString());
                 conn.Close();
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Hata: " + ex.Message);
-            }
+            catch (Exception ex) { MessageBox.Show("Hata: " + ex.Message); }
         }
 
         private void cmbSehir_SelectedIndexChanged(object sender, EventArgs e)
@@ -49,10 +46,7 @@ namespace TiyatroBiletSistemi
                     cmbIlce.Items.Add(reader["ilce_adi"].ToString());
                 conn.Close();
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Hata: " + ex.Message);
-            }
+            catch (Exception ex) { MessageBox.Show("Hata: " + ex.Message); }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -71,7 +65,7 @@ namespace TiyatroBiletSistemi
                 conn.Open();
 
                 string sorgu = @"
-                    SELECT o.oyun_adi, sl.salon_adi, s.saat, s.id as seans_id
+                    SELECT o.oyun_adi, o.poster, sl.salon_adi, s.saat, s.id as seans_id
                     FROM seanslar s
                     JOIN oyunlar o ON s.oyun_id = o.id
                     JOIN salonlar sl ON s.salon_id = sl.id
@@ -95,33 +89,47 @@ namespace TiyatroBiletSistemi
                     string oyunAdi = reader["oyun_adi"].ToString();
                     string salonAdi = reader["salon_adi"].ToString();
                     string saat = reader["saat"].ToString();
+                    string posterDosya = reader["poster"]?.ToString();
 
                     Panel kart = new Panel();
-                    kart.Size = new Size(280, 200);
+                    kart.Size = new Size(280, 420);
                     kart.BackColor = Color.White;
                     kart.BorderStyle = BorderStyle.FixedSingle;
                     kart.Margin = new Padding(20);
 
+                    // Poster resmi
+                    PictureBox pb = new PictureBox();
+                    pb.Size = new Size(240, 250);
+                    pb.Location = new Point(20, 15);
+                    pb.SizeMode = PictureBoxSizeMode.StretchImage;
+                    try
+                    {
+                        string yol = System.IO.Path.Combine(
+                            Application.StartupPath, @"..\..\Resources", posterDosya);
+                        pb.Image = Image.FromFile(yol);
+                    }
+                    catch { pb.BackColor = Color.LightGray; }
+
                     Label lblAd = new Label();
                     lblAd.Text = oyunAdi;
                     lblAd.Font = new Font("Arial", 11, FontStyle.Bold);
-                    lblAd.Location = new Point(20, 20);
+                    lblAd.Location = new Point(20, 275);
                     lblAd.AutoSize = true;
 
                     Label lblSalon = new Label();
                     lblSalon.Text = salonAdi;
-                    lblSalon.Location = new Point(20, 55);
+                    lblSalon.Location = new Point(20, 305);
                     lblSalon.AutoSize = true;
 
                     Label lblSaat = new Label();
                     lblSaat.Text = "Seans: " + saat;
-                    lblSaat.Location = new Point(20, 85);
+                    lblSaat.Location = new Point(20, 330);
                     lblSaat.AutoSize = true;
 
                     Button btnBilet = new Button();
                     btnBilet.Text = "Bilet Al";
                     btnBilet.Size = new Size(100, 35);
-                    btnBilet.Location = new Point(85, 130);
+                    btnBilet.Location = new Point(85, 365);
                     btnBilet.BackColor = Color.Firebrick;
                     btnBilet.ForeColor = Color.White;
                     btnBilet.FlatStyle = FlatStyle.Flat;
@@ -133,6 +141,7 @@ namespace TiyatroBiletSistemi
                         frm.Show();
                     };
 
+                    kart.Controls.Add(pb);
                     kart.Controls.Add(lblAd);
                     kart.Controls.Add(lblSalon);
                     kart.Controls.Add(lblSaat);
@@ -144,23 +153,12 @@ namespace TiyatroBiletSistemi
                 if (!oyunVar)
                     MessageBox.Show("Seçilen kriterlere uygun oyun bulunamadı.");
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Hata: " + ex.Message);
-            }
+            catch (Exception ex) { MessageBox.Show("Hata: " + ex.Message); }
         }
 
-        private void Oyunlar_Load_1(object sender, EventArgs e) { 
-        
-        }
-        private void label4_Click(object sender, EventArgs e) { 
-        
-        }
-        private void button2_Click(object sender, EventArgs e) { 
-        
-        }
-        private void flowOyunlar_Paint(object sender, PaintEventArgs e) {
-        
-        }
+        private void Oyunlar_Load_1(object sender, EventArgs e) { }
+        private void label4_Click(object sender, EventArgs e) { }
+        private void button2_Click(object sender, EventArgs e) { }
+        private void flowOyunlar_Paint(object sender, PaintEventArgs e) { }
     }
 }

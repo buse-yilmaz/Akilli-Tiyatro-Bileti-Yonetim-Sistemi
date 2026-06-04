@@ -219,9 +219,16 @@
     <None Include="Resources\e4c5eb10e08876db52387edc84d607d1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\alice.png" />
+    <Content Include="Resources\bir.jpg" />
+    <Content Include="Resources\gurur.jpg" />
     <Content Include="Resources\hamlet.jpg" />
+    <Content Include="Resources\macbeth.jpg" />
+    <Content Include="Resources\mai.png" />
     <Content Include="Resources\othello.jpg" />
     <Content Include="Resources\romeo.jpg" />
+    <Content Include="Resources\sefiller.jpg" />
+    <Content Include="Resources\suc.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
