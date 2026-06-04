@@ -19,27 +19,7 @@ namespace TiyatroBiletSistemi
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            /*using (var baglanti = VeriTabani.BaglantiAl())
-            {
-                try
-                {
-                    baglanti.Open(); // Bağlantıyı açmayı deniyoruz
-
-                    // Eğer buraya geçerse bağlantı BAŞARILIDIR
-                    MessageBox.Show("Harika! Veri tabanına başarıyla bağlandınız.",
-                                    "Bağlantı Durumu",
-                                    MessageBoxButtons.OK,
-                                    MessageBoxIcon.Information);
-                }
-                catch (Exception ex)
-                {
-                    // Eğer buraya düşerse bağlantı BAŞARISIZDIR (Şifre vb. yanlıştır)
-                    MessageBox.Show("Bağlantı hatası! Şifrenizi veya DB adını kontrol edin.\n\nDetay: " + ex.Message,
-                                    "Bağlantı Hatası",
-                                    MessageBoxButtons.OK,
-                                    MessageBoxIcon.Error);
-                }
-            }*/
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
